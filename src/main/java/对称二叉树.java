@@ -1,4 +1,5 @@
 import java.util.Stack;
+import java.util.stream.Collectors;
 
 /**
  * @author icanner
@@ -7,6 +8,7 @@ import java.util.Stack;
  *      1
  *    2   2
  *   4 8 8 4
+ * 这个二叉树就是中轴对称的
  */
 public class 对称二叉树 {
 
