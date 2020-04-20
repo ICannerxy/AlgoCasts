@@ -15,6 +15,19 @@ public class 两数相加不用加减法 {
     }
 
     // Time O(m) Space: O(1)
+
+    /**
+     * 思路：
+     * a^b 相同为0， 不同为1
+     * a&b 都为1， 才为1
+     *
+     * 1 0 0 1
+     * 1 0 1 1
+     *
+     * @param a
+     * @param b
+     * @return
+     */
     public int getSumIterative(int a, int b) {
         while (b != 0) {
             int sum = a ^ b;
