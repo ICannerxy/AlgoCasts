@@ -26,6 +26,13 @@ public class 单身数字 {
         return 2 * uniqueSum - sum;
     }
 
+    /**
+     * 思路：
+     * 异或，相同为0，不同为1，两个相同的数异或结果为0
+     *
+     * @param nums
+     * @return
+     */
     public int singleNumberWithXOR(int[] nums) {
         int result = 0;
         for (int num : nums) {
